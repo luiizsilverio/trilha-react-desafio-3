@@ -1,1 +1,19 @@
-// TODO
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  img:first-child {
+    margin-right: 1rem;
+  }
+  img:last-child {
+    margin-left: 5px;
+    position: relative;
+    top: -5px;
+  }
+}

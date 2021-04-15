@@ -8,3 +8,5 @@ export function getPrismicClient(req?: unknown): DefaultClient {
 
   return prismic;
 }
+
+//req, accessToken: process.env.PRISMIC_ACCESS_TOKEN

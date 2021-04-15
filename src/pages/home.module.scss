@@ -1,1 +1,51 @@
-// TODO
+
+.postPreview {
+  line-height: 1.5;
+  display: block;
+  margin-bottom: 45px;
+
+
+  strong {
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: var(--corTitle);
+  }
+
+  & > p {
+    font-size: 1.1rem;
+    color: var(--corTexto);
+    margin-bottom: 1rem;
+  }
+
+  span {
+    color: var(--corInfo);
+    display: flex;
+    align-items: center;
+    font-size: 0.87rem;
+
+    svg {
+      margin-right: 8px;
+      font-size: 1.3rem;
+    }
+
+    time {
+      display: flex;
+      justify-content: center;
+      margin-right: 30px;
+    }
+
+    p {
+      margin-right: 30px;
+      font-size: 0.87rem;
+    }
+  }
+}
+
+.maisPosts {
+  font-weight: 600;
+  color: #FF57B2;
+  font-size: 1.2rem;
+  background-color: var(--corFundo);
+  border: 0;
+  cursor: pointer;
+}
